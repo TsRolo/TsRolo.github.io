@@ -59,10 +59,10 @@ h2 {
 
 .btn-info {
 	width: 350px;
-	height: 50px;
 	margin: auto;
 	margin-top:20px; 
 	padding-top: 10px;
+	padding-bottom: 10px;
 	border-radius: 10px;
 	background-color: red;
 	font-weight: 900;
@@ -99,7 +99,6 @@ h2 {
 	padding-top: 40px;
 	padding-left: 70px;
 	padding-bottom: 100px;
-	margin-bottom: 20px;
 }
 
 .pe-navegador ul {
@@ -148,6 +147,7 @@ h2 {
 	background-position: center;
 	background-size: cover;
 	padding-top: 50px;
+	padding-bottom: 50px;
 	padding-right: 50px;
 	padding-left: 50px;
 	height: 900px;
@@ -158,6 +158,7 @@ h2 {
 	width: 356px;
 	background-color: #fff;
 	margin-left: 5px;
+	border-radius: 10px;
 }
 
 .servicio2 {
@@ -165,6 +166,7 @@ h2 {
 	width: 356px;
 	margin-left: 14px;
 	background-color: #fff;
+	border-radius: 10px;
 }
 
 .servicio3 {
@@ -172,25 +174,28 @@ h2 {
 	width: 356px;
 	margin-left: 14px;
 	background-color: #fff;
+	border-radius: 10px;
 
 }
 
-.img{
-	max-width: 600px;
-}
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 790px) {
 	
 	.bg-primary {
 		background: #f54227 !important;
 		;
 	}
 
+	.py-6{
+		padding-left: 20px;
+	}
+
 	.pt-6 {
 		padding-top: 20px;
 		text-align:left;
 		padding-left: 20px;
+		margin-right: 20px;
 	}
 
 	.pe-navegador ul {
@@ -204,8 +209,6 @@ h2 {
 		margin: 10px 10px 10px;
 		color: #fff;
 	}
-
-	
 
 	.servicios{
 		height: auto;
@@ -229,9 +232,26 @@ h2 {
 		margin-left: 5%;
 		width: 90%;
 	}
+
+	.btn-servicio{
+		padding-left: 15%;
+		padding-top: 20%;
+	}
+
 	.logo {
 		float: left; 
 		width: 100%;
 		padding-right: 20px;
 	}
+
+	.elementos{
+		padding-right: 25px;
+		float: left;
+	}
+
+	.btn-info{
+		width: 70%;
+	}
+
+	
 }
