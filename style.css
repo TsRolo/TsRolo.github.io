@@ -151,6 +151,7 @@ h2 {
 	padding-right: 50px;
 	padding-left: 50px;
 	height: 900px;
+	text-align: center;
 }
 
 .servicio1 {
@@ -177,7 +178,7 @@ h2 {
 
 
 /* Mobile */
-@media (max-width: 790px) {
+@media (max-width: 1000px) {
 	
 	.bg-primary {
 		background: #f54227 !important;
